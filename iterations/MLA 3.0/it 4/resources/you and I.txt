@@ -1,0 +1,6 @@
+Ahau,I or me
+Au,I or me
+Koe,You
+Ia,He or She
+Ko wai?,Who?
+TITLE, YOU AND I

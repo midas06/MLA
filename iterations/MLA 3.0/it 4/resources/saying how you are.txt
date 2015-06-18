@@ -1,0 +1,16 @@
+﻿Kei te pēhea koe?,How are you?
+Kei te pai,Good
+Kei te māuiui,Sick
+Kei te ngenge,Tired
+Kei te wherū,Under the weather
+Kei te ora,Living
+Kei te rūhā,Worn out or Exhausted
+Kei te hiakai,Hungry
+Kei te hiamoe,Sleepy
+Kei te hia inu,Thirsty
+Kei te kaha tonu,Still going strong
+Kei te pērā tonu,Same ole
+Kei te pokea e te mahi,Overworked
+Kei raro e putu ana,Snowed under
+Kāore i te pai,Not good
+TITLE, SAYING HOW YOU ARE

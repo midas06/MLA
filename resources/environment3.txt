@@ -1,0 +1,13 @@
+﻿Maunga,Mountain
+Ika,Fish
+Awa,River
+Roto,Lake
+Moana,Sea
+Ngahere,Forest
+Puke,Hill
+Manu,Bird
+Kererū,Wood Pigeon
+Kiore,Rat
+Kiwi,Kiwi
+Pīwakawaka,Fantail
+TITLE, ENVIRONMENT

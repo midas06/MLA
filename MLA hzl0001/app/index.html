@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MLA Splash Screen</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <style>
+    @font-face {
+      font-family: "arcadeclassic";
+      src: url("fonts/arcadeclassic.ttf");
+    }
+  </style>
+  <link rel="shortcut icon" href="img/icon.ico">
+</head>
+<body>
+  <div id="container">
+    <div id="flexdiv">
+      <canvas id="higherCanvas" height="350" width="600"></canvas>
+      <canvas id="lowerCanvas" height="75" width="600"></canvas>
+    </div>
+    <div id="coinslot"></div>   
+  </div>
+  <div>
+    <p> 
+     <img src="img/dollar2.png" id="dollar" alt="dollar" draggable="true" style="-webkit-user-drag: element;
+  -webkit-user-select: none;"/>
+     <audio id="coin" src="mp3/coin.mp3">
+    </p>
+  </div>
+  
+  <div id="musicplayer">
+		<div id="musictab"><img src="img/wav.gif"></div>
+		<div id="music">
+			<div id="nowPlaying">
+			Now Playing: <br>
+			Arcadeland - Bronix
+			</div><br>
+			<audio autoplay loop id="myAudio" src='mp3/theme.mp3'>
+			Your browser does not support the HTML5 Audio element.
+			</audio>
+			<button type="button" class="play" onclick="play()"></button>
+			<button type="button" class="pause" onclick="pause()"></button>
+		</div>
+	</div>
+    
+  <script src="src/splash3.js"></script>
+  <script src="src/dragdrop.js"></script>
+  <script src="src/mp3.js"></script>
+
+
+</body>
+</html>
+

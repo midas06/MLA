@@ -1,0 +1,201 @@
+/* RESET - Cancel some browser defaults to get consistent styling from one browser
+   to another. */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ 
+* {
+  box-sizing: border-box;
+}
+@font-face {
+      font-family: "arcadeclassic";
+      src: url("../fonts/arcadeclassic.ttf");
+}
+	
+a {
+	font-family: Arial;
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+
+#app {
+	width: 950px;
+	height: 600px;
+	border: black 4px solid;
+	background-color: #fff;
+	border-radius: 40px;
+}
+
+#flexdiv {
+	width: 700px;
+	display: block;
+	float: left;
+	border: white 8px solid;
+	border-radius: 40px;
+	margin: 10px;
+	background-color: black;
+}
+
+#container {
+	width: auto;
+	display: inline block;
+	float: left;
+} 
+
+#coinslot {
+	width: 150px;
+	height: 200px;
+	float: right;
+	background: url(../img/coinslot2.jpg);
+	margin: 135px 30px;
+	background-color: white;
+}
+#coindiv {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+#musicplayer{
+	opacity:0.2;
+	text-align: center;
+	position:fixed;
+	right:1em;
+	bottom:-40px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	z-index:999;
+}
+#musicplayer:hover{
+	opacity:1;
+	bottom:0px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+#music{
+	padding:7px;
+	background:#FFFFFF;
+	border-bottom: 5px #000000 solid;
+	width:200px;
+	z-index: 9999;
+	text-align:center;
+	-moz-border-radius: 0px 0px 0px 0px ;
+	-webkit-border-radius: 0px 0px 0px 0px ;
+	-o-border-radius: 0px 0px 0px 0px ;
+	border-radius: 0px 0px 0px 0px ;
+}
+#music img{
+	width: 3em;
+	height: 3em;
+}	
+		
+#musictab{
+	padding:7px;
+	background:#FFFFFF;
+	border-top: 5px #000000 solid;
+	width:200px;
+	-moz-border-radius: 100px 100px 0px 0px;
+	-webkit-border-radius: 100px 100px 0px 0px;
+	-o-border-radius: 100px 100px 0px 0px;
+	border-radius: 100px 100px 0px 0px;
+}
+#nowPlaying{
+	color: #000080;
+	font-family: arcadeclassic;
+}
+.play {
+	height: 3em;
+	width: 3em;
+	background-image: url(../img/play.png);
+	background-size:   cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.pause {
+	height: 3em;
+	width: 3em;
+	background-image: url(../img/pause.png);
+	background-size:   cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+
+
+#appApp {
+	margin: 30px;
+	width: 380px;
+	height: 500px;
+	border: 2px black solid;
+	border-radius: 20px;
+	padding: 10px;
+	float: left;
+}
+
+#appApp button, p {
+	margin: 5px 5px 0 0;
+}
+
+#spanTitle {
+	font-family: arcadeclassic;
+	font-size: 1.6em;
+}
+
+#spanQuestion {
+	font-size: 1.15em;
+	font-family: Arial;
+}
+
+#options {
+	padding-top: 10px;
+}
+
+#resultsPopup {
+	float: left;
+	margin: 30px;
+	border: 2px black solid;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#endGame {
+	float: left;
+	margin: 30px;
+	/*border: 2px black solid;
+	border-radius: 20px;*/
+	padding: 20px;
+}
+
+#divOptions, #divResults {
+	border: 2px black solid;
+	border-radius: 20px;
+}
+
+.btnImg {
+    background-image: url(../img/button.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 56px;
+    padding-left: 70px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+.btnImg:focus {
+	outline:0;
+}

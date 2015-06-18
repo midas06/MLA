@@ -1,0 +1,39 @@
+Pseudocode
+
+Splash screen:
+
+Canvas1 (scrolling text top to bottom): {
+	1. on initialisation, set:
+		- context to 2d
+		- font colour to black
+		- font to arcade classic, 40 pt
+		- position text at center/top (width/height) of canvas
+	2. until the text reaches the middle of the canvas
+		do:
+			move the text one 'step' lower
+}
+
+Canvas2 (flashing text): {
+	1. on initialisation, set:
+		- context to 2d
+		- font colour to black
+		- font to arcade classic, 10 pt
+		- position text at center/middle (w/h) of canvas
+		- set text colour level to no colour 
+	2. while the canvas is visible
+			if the text's colour level is no colour, 
+				until the text's colour reaches maximum colour,
+					increase the colour by one
+				
+			if the text's colour is maximum colour,
+				until the text reaches no colour,
+					decrease the colour by one
+}
+
+Drag and drop element: {
+	if the drag element (coin image) is placed in the drop div
+		play coin insert sound
+		begin fading out the page
+		when fade out is complete
+			change page to app
+}

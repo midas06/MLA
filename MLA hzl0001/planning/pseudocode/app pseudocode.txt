@@ -1,0 +1,68 @@
+Pseudocode
+
+When file is selected
+	
+	if file is of type = text
+		load file 
+	else 
+		notify user that the filetype must be text
+
+
+When file is loaded
+	
+	- display 'start quiz' button
+	 
+	- process the text document
+		create a 2-d array of possible questions
+			each new line of the document is a new element in the array
+				each word/phrase in the line, separated by a comma, is an element in the above element
+					the first element will be the maori word/phrase
+					the second element will be the english word/phrase
+		
+		splice the final line of the text document
+			this becomes the title of the quiz
+			
+
+
+
+	
+	
+When 'start quiz' button is clicked
+
+	- start quiz 
+	
+		- start the timer
+		
+		- create a question 
+			1. randomly select an element from the array of possible questions
+				push the maori word into the question's title 
+				remove the element from the array of possible questions
+			2. from the remaining possible questions, randomly select 3 'dummy' answers
+			3. shuffle the english elements of each answer, then push them into an array
+			4. update the html to reflect the title of the question and the possible answers
+
+		- when an answer is selected 
+			
+			store the history of the question
+			
+			if there are still questions that can be asked
+				create a question
+			
+			else 
+				- stop the timer
+				- show the history of the quiz, the total score, and the time it took
+				- prompt the user to enter their name
+		
+
+		- when the user enters their name
+			- save the quiz in local storage
+			- display buttons to show the results, either in linear order, or by best score
+			
+	
+		- if user clicks 'restart quiz'
+			- start quiz
+			
+		- if user clicks 'change quiz'
+			- display 'choose file' input
+
+			

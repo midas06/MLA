@@ -1,0 +1,118 @@
+/* RESET - Cancel some browser defaults to get consistent styling from one browser
+   to another. */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ 
+* {
+  box-sizing: border-box;
+}
+
+a {
+	font-family: Arial;
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+
+#flexdiv {
+	width: 700px;
+	display: block;
+	float: left;
+}
+
+#container {
+	width: auto;
+	display: inline block;
+	float: left;
+} 
+
+#coinslot {
+	width: 197px;
+	height: 405px;
+	float: left;
+	background: url(../img/coinslot.jpg);
+}
+
+#musicplayer{
+	opacity:0.2;
+	text-align: center;
+	position:fixed;
+	right:1em;
+	bottom:-40px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	z-index:999;
+}
+#musicplayer:hover{
+	opacity:1;
+	bottom:0px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+}
+#music{
+	padding:7px;
+	background:#FFFFFF;
+	border-bottom: 5px #000000 solid;
+	width:200px;
+	z-index: 9999;
+	text-align:center;
+	-moz-border-radius: 0px 0px 0px 0px ;
+	-webkit-border-radius: 0px 0px 0px 0px ;
+	-o-border-radius: 0px 0px 0px 0px ;
+	border-radius: 0px 0px 0px 0px ;
+}
+#music img{
+	width: 3em;
+	height: 3em;
+}	
+		
+#musictab{
+	padding:7px;
+	background:#FFFFFF;
+	border-top: 5px #000000 solid;
+	width:200px;
+	-moz-border-radius: 100px 100px 0px 0px;
+	-webkit-border-radius: 100px 100px 0px 0px;
+	-o-border-radius: 100px 100px 0px 0px;
+	border-radius: 100px 100px 0px 0px;
+}
+#nowPlaying{
+	color: #000080;
+	font-family: arcadeclassic;
+}
+.play {
+	height: 3em;
+	width: 3em;
+	background-image: url(../img/play.png);
+	background-size:   cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+.pause {
+	height: 3em;
+	width: 3em;
+	background-image: url(../img/pause.png);
+	background-size:   cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+#divOptions {
+	display: flex;
+	flex: row nowrap;
+}

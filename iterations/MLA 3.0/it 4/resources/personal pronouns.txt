@@ -1,0 +1,12 @@
+﻿Au,I or me
+Koe,You
+Ia,He or she
+Tāua,Us two
+Māua,Us two (Excludes listener)
+Kōrua,You two
+Rāua,Those two
+Tātou,Us all
+Mātou,Us all (3 or more) (Excludes listener)
+Koutou,You all (3 or more)
+Rātou,Them all (three or more)
+TITLE, PERSONAL PRONOUNS

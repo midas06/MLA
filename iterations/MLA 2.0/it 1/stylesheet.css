@@ -1,0 +1,27 @@
+/* RESET - Cancel some browser defaults to get consistent styling from one browser
+   to another. */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+
+a {
+	font-family: Arial;
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}

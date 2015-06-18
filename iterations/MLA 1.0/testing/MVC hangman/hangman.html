@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Hangman html page</title>
+  <style> 
+    img{height: 4em}
+  </style>
+</head>
+<body>
+  <img src="img/spam.gif" id="iconA" alt="Spam" draggable="true"/>
+  <img src="img/egg.gif" id="iconB" alt="Egg" draggable="true"/>
+  <img src="img/cat.png" id="iconC" alt="Cat" draggable="true"/>
+  <button id="btnShowGuessed">Show Guessed</button>
+  <p><span id="spnDashes"></span></p>
+  <p><span id="spnGuessedLetters"></span></p>
+  <!-- <p>
+    <img src="img/cat.png" id="life1" alt="Life1"></img>
+    <img src="img/cat.png" id="life1" alt="Life1"></img>
+    <img src="img/cat.png" id="life1" alt="Life1"></img>
+  </p> -->
+  
+  <script src="src/hangmanModel.js"></script>
+  <script src="src/hangmanView.js"></script>
+  <script src="src/hangmanController.js"></script>
+  <script src="src/hangmanApp.js"></script>
+  
+</body>
+
+
+</html>

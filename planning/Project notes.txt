@@ -1,0 +1,45 @@
+/***************/
+// Notes
+
+- Drag/drop and Typing: Separate
+
+- Different functions:
+	spelling
+	use in a sentence
+	match word eng maori (picture?)
+	hangman
+	
+http://codepen.io/cathydutton/pen/ldazc
+
+
+
+
+
+// TO DO //////////
+Letter - to lower case
+alphabet array, if letter not in guessed array proceed
+
+anything with & and ; count as one character
+
+
+
+
+// BASIC APP
+
+- .txt into JS
+
+http://stackoverflow.com/questions/24346008/how-to-load-a-txt-csv-file-into-javascript-string-array-while-offline
+
+
+Quiz has many Attempts
+
+Attempt
+_______
+accuracy
+speed
+date
+startTime
+endTime
+_______
+calcAccuracy()
+calcSpeed()

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>test</title>
+  <style>
+    div {
+      min-height: 100px;
+      width: 100px;
+      border: 3px dashed #ccc;
+      margin: 10px;
+      padding: 10px;
+      display: block;
+    }
+    img{
+      height: 4em;
+    }
+    p{
+      margin: 3px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="div1"></div>
+  <div id="div2"></div>
+  <div id="div3"></div>
+  <p>
+   <img src="img/spam.gif" id="drag1" alt="Spam" draggable="true"/>
+   <img src="img/egg.gif" id="drag2" alt="Egg" draggable="true"/>
+   <img src="img/cat.png" id="drag3" alt="Cat" draggable="true"/>
+   &#363;
+  </p>
+  <button id="btnTest">Test it</button>
+  
+  <script src="src/buildWords.js"></script>
+</body>
+</html>

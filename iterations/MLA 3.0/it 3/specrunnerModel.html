@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.2.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.2.0/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.2.0/jasmine.css">
+
+  <script src="lib/jasmine-2.2.0/jasmine.js"></script>
+  <script src="lib/jasmine-2.2.0/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.2.0/boot.js"></script>
+  <script src="lib/jasmine-2.2.0/jquery-1.11.3.js"></script>
+  <script src="lib/jasmine-2.2.0/jasmine-jquery.js"></script>
+</head>
+
+<body>
+
+<div hidden="true">
+
+<form>
+    <button id="btnGetResource" type="button">Start the Quiz</button>
+    <div id="divOptions">
+      <button id="btnReset" type="button">Restart</button>
+      <button id="btnChangeQuiz" type="button">Change Quiz</button>
+    </div>
+    <div id="divResults">
+      <button id="btnResultsTime" type="button">Get Results By Quiz</button>
+      <button id="btnResultsOrdered" type="button">Get Results by Score</button>
+    </div>
+    <p id="spanTitle"></p>
+    <p id="spanQuestion"></p>
+    <p id="spanOptions"></p>
+    <a id="linkOptionOne" href="#"></a><br>
+    <a id="linkOptionTwo" href="#"></a><br>
+    <a id="linkOptionThree" href="#"></a><br>
+    <a id="linkOptionFour" href="#"></a><br>
+  </form>
+  <div id="resultsPopup">
+    <p id="spanResults">
+    Please enter your name: <input type="text" maxlength="3" value="AAA" id="inputName"><br>
+      <input type="submit" value="Submit" id="btnName">
+    </p>
+  </div>
+  <div id="musicplayer" onload="play()">
+		<div id="musictab"><img src="img/wav.gif"></div>
+		<div id="music">
+			<div id="nowPlaying">
+			Now Playing: <br>
+			Come  On  Eileen  (8bit) - Lazyitis
+			</div><br>
+			<audio loop id="myAudio" src='mp3/main.mp3'>
+			Your browser does not support the HTML5 Audio element.
+			</audio>
+			<button type="button" class="play" onclick="play()"></button>
+			<button type="button" class="pause" onclick="pause()"></button>
+		</div>
+	</div>
+</div>
+
+ <!-- include source files here... -->
+  <script src="src/MLA_Model_Spec.js"></script>
+	<script src="src/MLA_View.js"></script>
+	<script src="src/MLA_Controller.js"></script>
+	<script src="src/MLA_App.js"></script>
+  
+  <!-- include spec files here... -->
+  <script src="spec/modelSpec.js"></script>
+  <input type="file" id="file">
+
+</body>
+</html>
